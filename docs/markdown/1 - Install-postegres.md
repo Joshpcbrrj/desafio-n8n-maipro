@@ -1,15 +1,18 @@
 # Como instalar o PostegreSQL (Banco de dados local)
 
+<img src="/docs/img/pgadmin.png" width="800" alt="Logo do N8N">
+
+___
+
 ## **Pré-requisitos**
 
 - Sistema operacional **Windows 11**.
 - Acesso à internet.
 
-<br>
 
-## **Passos**
+### **Passos**
 
-### 1. **Baixar o Instalador do PostgreSQL**
+#### 1. **Baixar o Instalador do PostgreSQL**
 
 1. Acesse a página oficial do PostgreSQL: https://www.postgresql.org/download/.
 2. Clique em **Download** e selecione a versão adequada para **Windows**.
@@ -17,7 +20,7 @@
 
 <br>
 
-### 2. **Executar o Instalador**
+#### 2. **Executar o Instalador**
 
 1. Localize o arquivo `.exe` baixado e clique para executá-lo.
 2. Siga as instruções do assistente de instalação. Para a maioria das opções, você pode manter as configurações padrão.
@@ -29,14 +32,14 @@
 
 <br>
 
-### 3. **Abrir o pgAdmin**
+#### 3. **Abrir o pgAdmin**
 
 1. Após a instalação, abra o **pgAdmin** (gerenciador gráfico do PostgreSQL) através do menu Iniciar ou da área de trabalho.
 2. O pgAdmin abrirá em seu navegador padrão. Na primeira execução, será solicitado que você insira a senha configurada para ele durante a instalação.
 
 <br>
 
-### 4. **Testar a Conexão com o Banco de Dados**
+#### 4. **Testar a Conexão com o Banco de Dados**
 
 1. Após fazer login no pgAdmin, adicione uma conexão com o banco de dados PostgreSQL:
     - Clique em **Add New Server** no painel à esquerda.
@@ -52,7 +55,7 @@
 
 <br>
 
-### 5. **Liberar Acesso Remoto ao PostgreSQL**
+#### 5. **Liberar Acesso Remoto ao PostgreSQL**
 
 ### **Alterar as Configurações do PostgreSQL para Aceitar Conexões Remotas**
 
@@ -73,7 +76,7 @@
 
 <br>
 
-### **Alterar o Arquivo `pg_hba.conf` para Permitir Conexões Externas**
+##### **Alterar o Arquivo `pg_hba.conf` para Permitir Conexões Externas**
 
 1. **Abrir o arquivo `pg_hba.conf`:**
     - No mesmo diretório onde você encontrou o `postgresql.conf`, localize o arquivo `pg_hba.conf` e abra-o com um editor de texto.
@@ -89,7 +92,7 @@
 
 <br>
 
-### **Reiniciar o Serviço do PostgreSQL**
+##### **Reiniciar o Serviço do PostgreSQL**
 
 1. Abra o **Prompt de Comando** ou **PowerShell** como **Administrador**.
 2. Execute o seguinte comando para reiniciar o serviço do PostgreSQL:
@@ -101,7 +104,7 @@
     
 <br>
 
-### 6. **Verificar a Conexão Remota (usando o próprio PC)**
+#### 6. **Verificar a Conexão Remota (usando o próprio PC)**
 
 1. **Obter o Endereço IP do Computador:**
     - Abra o **Prompt de Comando** (cmd) e digite o seguinte comando para encontrar o seu endereço IP:
@@ -123,9 +126,6 @@
     - Se a configuração estiver correta e o PostgreSQL estiver aceitando conexões remotas, a conexão será bem-sucedida e você poderá acessar o banco de dados.
   
 
-
 <br>
 
-<br>
-
-[Voltar para inicio](/README.md)
+[Voltar para inicio](/)

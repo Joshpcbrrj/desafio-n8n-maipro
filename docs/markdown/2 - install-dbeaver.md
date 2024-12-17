@@ -1,12 +1,14 @@
 # Como instalar o DBeaver (Interface simples para gerenciar bancos locais)
 
+<img src="/docs/img/dbeaver.png" width="900" alt="Logo do N8N">
+
+---
+
 ## **Links Úteis**
 
 - Documentação oficial: https://dbeaver.io/docs/
 
-<br>
-
-## **Requisitos**
+### **Requisitos**
 
 Antes de começar, verifique se você atende aos seguintes requisitos:
 
@@ -15,9 +17,9 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 <br>
 
-## **Passo a Passo**
+### **Passo a Passo da instalação:**
 
-### 1. Baixar e Instalar o DBeaver
+#### 1. Baixar e Instalar o DBeaver
 
 1. Acesse o site oficial do DBeaver: https://dbeaver.io/.
 2. Clique no botão **Download** no topo da página.
@@ -28,16 +30,17 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 <br>
 
-### 2. Iniciar o DBeaver
+#### 2. Iniciar o DBeaver
 
 1. Localize o ícone do DBeaver na área de trabalho ou no menu Iniciar.
 2. Clique no ícone para abrir o aplicativo.
 3. Pronto! Agora você está pronto para usar o DBeaver.
 
 <br>
-### 3. Configuração Inicial
 
-### Adicionar uma Conexão ao PostgreSQL
+#### 3. Configuração Inicial
+
+#### Adicionar uma Conexão ao PostgreSQL
 
 1. Clique no ícone de **Nova Conexão** no canto superior esquerdo.
 2. Na lista exibida, selecione **PostgreSQL** e clique em **Next**.
@@ -49,7 +52,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
     - **Password:** `root` (ou a senha configurada durante a instalação do PostgreSQL).
 4. Clique em **Test Connection**.
 
-### Testar a Conexão (Exemplo)
+#### Testar a Conexão (Exemplo)
 
 1. Após clicar em **Test Connection**, o DBeaver tentará se conectar ao banco de dados.
 2. **Resultado esperado:**
@@ -64,7 +67,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 <br>
 
-### 4. Conceder Permissões ao Usuário no PostgreSQL
+#### 4. Conceder Permissões ao Usuário no PostgreSQL
 
 Se você estiver utilizando o **n8n** ou outro aplicativo que precise de permissões adequadas no banco de dados PostgreSQL, siga os passos abaixo para conceder permissões ao usuário.
 
@@ -87,7 +90,12 @@ Se você estiver utilizando o **n8n** ou outro aplicativo que precise de permiss
     
     Caso não apareça nenhuma mensagem de erro, as permissões foram concedidas corretamente. Caso contrário, revise os comandos e garanta que o usuário `n8nuser` esteja corretamente configurado no banco de dados.
     
+<br>
 
-### 5. Conectar-se ao Banco de Dados e Testar
+#### 5. Conectar-se ao Banco de Dados e Testar
 
 Agora que você concedeu as permissões, volte à conexão no DBeaver e clique em **Test Connection** novamente para verificar se tudo está funcionando corretamente.
+
+<br>
+
+[Voltar ao inicio](/)

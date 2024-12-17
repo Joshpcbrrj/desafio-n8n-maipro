@@ -1,10 +1,12 @@
 # Como criar o Banco de Dados `n8n` e um Usuário para Gerenciá-lo no Postegres via DBeaver
 
-![111.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/b0b7c39d-7a1c-487f-a458-46f2d389b76c/759492f1-34e9-481a-bcfb-b87074e35f62/111.png)
+<img src="/docs/img/db.png" width="800" alt="Logo do N8N">
 
-## **Tutorial passo a passo**
+---
 
-### **Passo 1: Conectar ao PostgreSQL no DBeaver**
+## Tutorial passo a passo:
+
+### Passo 1: Conectar ao PostgreSQL no DBeaver
 
 1. Abra o **DBeaver**.
 2. Clique no ícone de **Nova Conexão** (ou vá para `Arquivo > Nova Conexão`).
@@ -19,7 +21,7 @@
 
 <br>
 
-### **Passo 2: Criar o Banco de Dados `n8n`**
+### Passo 2: Criar o Banco de Dados `n8n`
 
 1. Na aba de conexões, clique com o botão direito na conexão do PostgreSQL (`localhost`).
 2. Escolha **SQL Editor > Nova Janela SQL**.
@@ -40,7 +42,7 @@
 
 <br>
 
-### **Passo 3: Criar um Usuário para Gerenciar o Banco**
+### Passo 3: Criar um Usuário para Gerenciar o Banco
 
 1. Na janela SQL, execute o seguinte comando para criar o usuário `n8nuser` com a senha `rootn8n` (o usuário será criado somente se ainda não existir):
     
@@ -79,7 +81,7 @@
 
 <br>
 
-### **Passo 4: Alterar a Conexão para o Banco de Dados `n8n`**
+### Passo 4: Alterar a Conexão para o Banco de Dados `n8n`
 
 1. Na aba **Database Navigator** (geralmente à esquerda), localize a conexão do PostgreSQL já criada.
 2. Clique com o botão direito sobre a conexão e escolha **Editar Conexão**.
@@ -89,7 +91,7 @@
 
 <br>
 
-### **Passo 5: Testar a Conexão do Novo Usuário no DBeaver**
+### Passo 5: Testar a Conexão do Novo Usuário no DBeaver
 
 1. Clique novamente no ícone de **Nova Conexão** no DBeaver.
 2. Escolha **PostgreSQL** e clique em **Avançar**.
@@ -99,3 +101,7 @@
     - **Database**: `n8n`
 4. Clique em **Testar Conexão** para garantir que o novo usuário tem acesso ao banco `n8n`.
 5. Clique em **Finalizar**.
+
+<br>
+
+[Voltar ao inicio](/)

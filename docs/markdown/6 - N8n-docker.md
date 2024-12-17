@@ -1,6 +1,10 @@
 # **Como configurar o N8N com Postgres local usando Docker**
 
-## Links úteis
+<img src="/docs/img/n8ndocker.png" width="600" alt="Logo do N8N">
+
+---
+
+### Links úteis
 
 - [N8N docs - installation docker](https://docs.n8n.io/hosting/installation/docker/)
 - [Github netroy - Arquivo compose base](https://github.com/n8n-io/n8n-hosting/blob/main/docker-compose/withPostgres/docker-compose.yml)
@@ -14,9 +18,9 @@
 
 ## **Tutorial para Instalação do N8N com PostgreSQL no Docker**
 
-### **Passo 1: Criar o Arquivo `docker-compose.yml`**
+### Passo 1: Criar o Arquivo `docker-compose.yml`
 
-### **1.1 - Navegue até o Diretório do Projeto**
+#### 1.1 - Navegue até o Diretório do Projeto
 
 No **PowerShell**, acesse o diretório onde deseja configurar o projeto do N8N:
 
@@ -24,7 +28,7 @@ No **PowerShell**, acesse o diretório onde deseja configurar o projeto do N8N:
 cd C:\caminho\para\seu\projeto
 ```
 
-### **1.2 - Crie o Arquivo com o Comando `New-Item`**
+#### 1.2 - Crie o Arquivo com o Comando `New-Item`
 
 No terminal, use o comando **`New-Item`** para criar o arquivo `docker-compose.yml`:
 
@@ -32,7 +36,7 @@ No terminal, use o comando **`New-Item`** para criar o arquivo `docker-compose.y
 New-Item -ItemType File -Name "docker-compose.yml"
 ```
 
-### **1.3 - Edite o Arquivo**
+#### 1.3 - Edite o Arquivo
 
 Abra o arquivo `docker-compose.yml` em um editor de texto (como o **VS Code**):
 
@@ -68,7 +72,7 @@ services:
 
 <br>
 
-### **Passo 2: Liberar a Porta 5678 no Firewall do Windows**
+### Passo 2: Liberar a Porta 5678 no Firewall do Windows
 
 Para garantir que o N8N seja acessível externamente na porta **5678**, você precisa liberar essa porta no firewall do Windows. Siga os passos abaixo:
 
@@ -90,9 +94,9 @@ Agora a porta **5678** está liberada no firewall e pode ser acessada pela aplic
 
 <br>
 
-### **Passo 3: Subir o Container Docker**
+### Passo 3: Subir o Container Docker
 
-### **3.1 - Certifique-se de Estar no Diretório do Projeto**
+#### 3.1 - Certifique-se de Estar no Diretório do Projeto
 
 No **PowerShell**, navegue até o diretório do projeto onde o arquivo `docker-compose.yml` foi criado:
 
@@ -100,7 +104,7 @@ No **PowerShell**, navegue até o diretório do projeto onde o arquivo `docker-c
 cd C:\caminho\para\seu\projeto
 ```
 
-### **3.2 - Inicie o Container**
+#### 3.2 - Inicie o Container
 
 Inicie o container do Docker com o comando:
 
@@ -112,7 +116,7 @@ docker-compose up -d
     - Fazer o download das imagens do N8N e do PostgreSQL, caso ainda não estejam no sistema.
     - Criar e executar os containers com base no arquivo `docker-compose.yml`.
 
-### **3.3 - Verifique se o Container Está Ativo/ Comandos para gerenciar o container**
+#### 3.3 - Verifique se o Container Está Ativo/ Comandos para gerenciar o container
 
 Execute o seguinte comando para listar os containers ativos:
 
@@ -137,9 +141,9 @@ Certifique-se de que o container **n8n** e o **postgres** estejam listados como 
 
 <br>
 
-### **Passo 4: Acessar o N8N**
+### Passo 4: Acessar o N8N
 
-### **4.1 - Abra o Navegador**
+#### 4.1 - Abra o Navegador
 
 No navegador, acesse o endereço:
 
@@ -151,7 +155,7 @@ http://localhost:5678
 
 <br>
 
-### **Passo 5: Testar a Conexão com o Banco de Dados PostgreSQL**
+### Passo 5: Testar a Conexão com o Banco de Dados PostgreSQL
 
 1. Na interface do N8N, crie um workflow simples que interaja com o banco de dados PostgreSQL.
 2. Configure a conexão utilizando as credenciais fornecidas:
@@ -161,4 +165,4 @@ http://localhost:5678
 
 <br>
 
-<br>
+[Voltar ao inicio](/)

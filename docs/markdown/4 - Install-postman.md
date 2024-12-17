@@ -1,19 +1,23 @@
 # Como instalar o Postman (Ferramenta de Teste de APIs) no Windows
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/b0b7c39d-7a1c-487f-a458-46f2d389b76c/06c8a1c8-9a1f-4fea-ba7e-39afbb603f88/Foto_docker.png
+<img src="/docs/img/postman.png" width="800" alt="Logo do N8N">
 
-## **Links Úteis**
+---
+
+## Links Úteis
 
 - **Documentação Oficial:** Para mais informações, consulte a documentação oficial: https://www.postman.com/docs.
 
-## **Requisitos**
+### Requisitos
 
 - **Sistema Operacional:** Windows 7 (64 bits) ou superior.
 - **Conexão à Internet** para baixar o instalador.
 
-**Passo a Passo**
+<br>
 
-### **Passo 1 - Baixar o Postman**
+### Passo a passo da instalação:
+
+#### Passo 1 - Baixar o Postman
 
 1. Acesse o site oficial do Postman: https://www.postman.com/downloads.
 2. Clique em **Download for Windows** para baixar o instalador.
@@ -21,7 +25,7 @@
 
 <br>
 
-### **Passo 2 - Instalar o Postman**
+#### Passo 2 - Instalar o Postman
 
 1. Localize o arquivo baixado e clique duas vezes para iniciá-lo.
 2. No assistente de instalação:
@@ -32,7 +36,7 @@
 
 <br>
 
-### **Passo 3 - Configurar o Postman**
+#### Passo 3 - Configurar o Postman
 
 1. **Abrir o Postman:**
     - Após a instalação, localize o ícone do Postman no menu Iniciar e abra o aplicativo.
@@ -44,9 +48,13 @@
 
 <br>
 
-### **Passo 4 - Testar o Postman**
+#### Passo 4 - Testar o Postman
 
 1. Abra o Postman e crie uma nova **Request** (requisição).
 2. No campo de URL, digite `https://jsonplaceholder.typicode.com/todos/1` (uma API pública para teste).
 3. Selecione o método **GET** e clique em **Send**.
 4. O Postman deve exibir a resposta da API no painel inferior, mostrando um JSON com os dados do **Todo 1**.
+
+<br>
+
+[Voltar ao inicio](/)

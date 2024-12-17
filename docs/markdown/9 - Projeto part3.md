@@ -1,8 +1,14 @@
 # Documentação nível 3 - Sugestão de Imóveis Personalizada com Base no Perfil do Lead
 
+### Explicação:
+
 Neste nível, vamos usar dados do lead (como preferências, orçamento e tipo de imóvel) para sugerir imóveis personalizados. Vamos integrar fontes externas e utilizar inteligência artificial para tornar a sugestão mais assertiva. O objetivo é oferecer uma recomendação de imóveis que se ajustem melhor ao perfil do lead.
 
-### **Passo 1: Definir Parâmetros de Preferências do Lead**
+---
+
+## Tutorial passo a passo:
+
+### Passo 1: Definir Parâmetros de Preferências do Lead
 
 Primeiro, precisamos entender o perfil do lead. Esses dados podem ser coletados e armazenados a partir das interações anteriores ou perguntas feitas durante o processo de qualificação. As informações mais comuns incluem:
 
@@ -18,7 +24,9 @@ Exemplo de dados que podem ser coletados:
 - Localização: São Paulo
 - Comodidades: 2 quartos, varanda, garagem
 
-### **Passo 2: Integração com API de Imóveis Externos**
+<br>
+
+### Passo 2: Integração com API de Imóveis Externos
 
 Agora vamos integrar uma API externa que fornece dados sobre imóveis. Podemos usar uma API como **ZAP Imóveis** ou **Viva Real**, ou até mesmo integrar com plataformas como **Airbnb** ou **Trivago**, dependendo do tipo de imóveis.
 
@@ -49,8 +57,9 @@ async function buscarImoveisOrcamento(preferencia) {
     return dadosImoveis;
 }
 ```
+<br>
 
-### **Passo 3: Aplicar Inteligência Artificial para Melhorar a Recomendação**
+### Passo 3: Aplicar Inteligência Artificial para Melhorar a Recomendação
 
 Com os dados coletados, podemos usar **algoritmos de recomendação** para melhorar as sugestões de imóveis. Aqui estão algumas abordagens que você pode usar:
 
@@ -64,7 +73,9 @@ Com os dados coletados, podemos usar **algoritmos de recomendação** para melho
 
 Para isso, podemos usar ferramentas como **TensorFlow**, **Scikit-learn** ou até mesmo serviços de IA prontos como o **Google AI**.
 
-### **Passo 4: Envio das Sugestões de Imóveis para o Lead**
+<br>
+
+### Passo 4: Envio das Sugestões de Imóveis para o Lead
 
 Após filtrar os imóveis recomendados, podemos enviar a lista personalizada para o lead via e-mail ou outro canal de comunicação.
 
@@ -105,7 +116,9 @@ sgMail.send(msg);
 1. **Envio via SMS (opcional):**
     - Se o lead preferir receber sugestões via SMS, utilize um serviço como o **Twilio** para enviar as informações.
 
-### **Passo 5: Monitoramento e Melhoria Contínua**
+<br>
+
+### Passo 5: Monitoramento e Melhoria Contínua
 
 Após implementar o envio das sugestões de imóveis, é importante monitorar a eficácia das recomendações e buscar constantemente melhorias.
 
@@ -113,9 +126,13 @@ Após implementar o envio das sugestões de imóveis, é importante monitorar a 
 - **Feedback do Lead:** Enviar uma pesquisa para saber se as sugestões foram úteis.
 - **Ajuste do Algoritmo:** Melhore os algoritmos de recomendação conforme você coleta mais dados sobre as preferências dos leads e o comportamento deles.
 
-### **Exemplo Completo do Fluxo:**
+#### **Exemplo Completo do Fluxo:**
 
 1. **Coleta dos dados do lead**: Orçamento, tipo de imóvel, localização, comodidades.
 2. **Chamada para a API externa de imóveis**: Usando os dados coletados do lead.
 3. **Processamento com IA ou algoritmo de recomendação**: Filtragem baseada em preferências do lead e imóveis disponíveis.
 4. **Envio da sugestão personalizada para o lead**: Através de e-mail, SMS ou outro canal de comunicação.
+
+<br>
+
+[Voltar ao inicio](/)

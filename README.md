@@ -25,7 +25,7 @@
 
 ### Tutoriais de configuração:
 
-* [Como criar o Banco de Dados n8n e um Usuário para Gerenciá-lo no Postegres via DBeaver](/docs/markdown/5%20-%20Create-db-n8n.md)
+* [Como criar o Banco de Dados `n8n` e um Usuário para Gerenciá-lo no Postegres via DBeaver](https://www.notion.so/Como-criar-o-Banco-de-Dados-n8n-e-um-Usu-rio-para-Gerenci-lo-no-Postegres-via-DBeaver-15d345e2044380169a80d24af9b5e06e?pvs=21)
 
 * [Como configurar o N8N com Postgres local usando Docker](/docs/markdown/6%20-%20N8n-docker.md)
 

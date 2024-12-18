@@ -12,22 +12,22 @@
 
 ### Tutoriais para instalação das ferramentas:
 
-* [Como instalar o PostegreSQL (Banco de dados local)](/docs/markdown/1%20-%20Install-postegres.md)
+* [Como instalar o PostegreSQL (Banco de dados local)](/docs/markdown/1%20-%20Install%20postegres.md)
 
-* [Como instalar o DBeaver (Interface simples para gerenciar bancos locais)](/docs/markdown/2%20-%20Install-dbeaver.md)
+* [Como instalar o DBeaver (Interface simples para gerenciar bancos locais)](/docs/markdown/2%20-%20Install%20dbeaver.md)
 
-* [Como instalar o Docker desktop (Aplicações em containers)](/docs/markdown/3%20-%20Install-docker-desktop.md)
+* [Como instalar o Docker desktop (Aplicações em containers)](/docs/markdown/3%20-%20Install%20docker%20desktop.md)
 
-* [Como instalar o Postman (Ferramenta de Teste de APIs) no Windows](/docs/markdown/4%20-%20Install-postman.md)
+* [Como instalar o Postman (Ferramenta de Teste de APIs) no Windows](/docs/markdown/4%20-%20Install%20postman.md)
 
 <br>
 
 
 ### Tutoriais de configuração:
 
-* [Como criar o Banco de Dados `n8n` e um Usuário para Gerenciá-lo no Postegres via DBeaver](https://www.notion.so/Como-criar-o-Banco-de-Dados-n8n-e-um-Usu-rio-para-Gerenci-lo-no-Postegres-via-DBeaver-15d345e2044380169a80d24af9b5e06e?pvs=21)
+* [Como criar o Banco de Dados n8n e um Usuário para Gerenciá-lo no Postegres via DBeaver](/docs/markdown/5%20-%20Createdb%20n8n.md)
 
-* [Como configurar o N8N com Postgres local usando Docker](/docs/markdown/6%20-%20N8n-docker.md)
+* [Como configurar o N8N com Postgres local usando Docker](/docs/markdown/6%20-%20N8n_docker.md)
 
 <br>
 
